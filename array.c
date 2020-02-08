@@ -1,4 +1,4 @@
-//c program to read and print Negative elements in an array
+//c program to read and print elements in an array
 #include<stdio.h>
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("Negative elements in array : ");
+    printf("\n elements in array : ");
     for(i=0;i<n;i++)
     {
         printf("%d,",arr[i]);
