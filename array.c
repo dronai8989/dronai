@@ -1,21 +1,33 @@
-// c program to find sum of all elements
+// c program to find maximum and minimum element in array
 #include<stdio.h>
 int main()
 {
-    int arr[2];
-    int i,n,sum=0;
+    int arr[4];
+    int i,max,min,size;
     printf("Enter size of array : ");
-    scanf("%d",&n);
-    printf("Enter %d elements in the array : ",n);
-    for(i=0;i<n;i++)
+    scanf("%d",&size);
+    printf("Enter elements in array : ", size);
+    for(i=0; i<size; i++)
     {
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<n;i++)
+    max = arr[i]
+    min = arr[i]
+                for(i=0; i<size; i++)
     {
 
-        sum = sum + arr[i];
+        if(arr[i]>max)
+
+
+        {
+
+        } max = arr[i];
     }
-    printf("Sum of all elements of array : %d\n ", sum);
-    return 0;
+    if(i=0; i<size; i++)
+    {
+        min = arr[i];
+    }
 }
+printf("Maximum element = %d\n", max);
+printf("Minimum element = %d\n",min);
+return 0;
